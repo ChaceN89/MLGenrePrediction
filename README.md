@@ -1,21 +1,19 @@
-# GenrePredictionSpark
-A machine learning notebook to predict song genre from only text infomation
+# Machine Learning Music Notebooks
 
+Chace Nielson
 
-This project was completed in the fall semester for SENG 550 at the university of Calgary
+---
+This repository contains three notebooks related to music and machine learning.
 
-The project uses
-- Apache Spark
-- Machine Learn
-- Sentiment analysis
+## Genre Prediction and Music Recommendation
+This ongoing project focuses on using audio files to create a library for generating recommendations based on selected songs or music tastes.
 
+## Genre Prediction using the Librosa Library
+This project uses machine learning to predict music genres. Features are extracted from audio files and analyzed through various machine learning models to identify the best model and optimal parameters, utilizing tools such as GridSearchCV.
 
-The goal of the project was to determine if a songs text infomaiton could be used to predict the genre of the song. The project served as a introduction to Spark and Machine Learning. 
+## Genre Prediction using Sentiment Analysis and Apache Spark
+This project handles large datasets with Spark and applies machine learning algorithms to predict music genres. Features are sentiment scores derived from song lyrics. The machine learning component is straightforward, emphasizing large data processing with Spark.
 
-The PDF report details the project and the outcome. The notebook contains the code set up by Chace Nielson to create a spark context using song data, extracting features and running machine learning. Addition graphics are also found in the notebook.
+---
 
-The project requires a file containing sentiment analysis data and the CSV file containing song data. It was also initially set up to run in a google colab and mount to a google drive.
-
-You may follow the notebook to view the complete process.
-
-
+You can explore each folder to view the notebooks.
