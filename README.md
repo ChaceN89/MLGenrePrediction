@@ -16,4 +16,4 @@ This project handles large datasets with Spark and applies machine learning algo
 
 ---
 
-You can explore each folder to view the notebooks.
+You can explore each folder to view the notebooks and there respective readmes.
